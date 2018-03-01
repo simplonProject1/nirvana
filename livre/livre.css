@@ -1,0 +1,70 @@
+@import url(../nirvana.css);
+
+
+
+.imgfoot{
+    margin-top: 200px;
+}
+.formulaire{
+   
+    color: aquamarine;
+    background-image: url(3.jpg);
+    width: 1000px;
+    height: 800px;
+    text-align: left;
+    margin-bottom: 150px;
+    font-family: urw chancery L;
+    font-size: 23px;
+    }
+    
+
+
+
+
+
+textarea{
+
+
+    background-color: rgba(228,77,38,0.1);
+    border-radius: 10px;
+    color: white;
+    border-color: aquamarine;
+    margin-left: 0px;
+    font-size: 22px;
+    font-style: normal;
+    font-family: urw chancery L;
+
+}
+
+
+
+
+
+footer{
+    margin-bottom: 100px;
+      
+}
+
+footer img{
+    margin-bottom: -50px;
+    margin-left: auto;
+
+ }
+ 
+.pseudo{
+
+    margin-top: 100px;
+    margin-left: 20px;
+   
+}
+.comm{
+    margin-left: 20px;
+}
+    
+
+footer div{
+
+    margin-top: -120px;
+}
+
+

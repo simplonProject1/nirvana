@@ -1,0 +1,66 @@
+@import url("../nirvana.css");
+
+section {
+	min-height: 270px;
+	padding-top: 130px;
+	font-family: 'Kameron', serif;
+	font-size: 1.2rem;
+}
+
+.selection {
+	display: flex;
+	justify-content: space-around;
+}
+
+.price, .fillUpForm, .confirmation {
+	display: none;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.dates input {
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.underline:hover {
+	font-weight: bold;
+}
+
+.tripPrice {
+	font-size: 2rem;
+}
+
+/* dodać required do formularza */
+
+input[type=text], input[type=date], input[type=email] {
+	border-radius: 5px;
+}
+
+input[type=radio]:checked + label {
+  font-weight: bold;
+  margin-left: 10px;
+} 
+
+input[type=radio]:hover + label {
+  font-weight: bold;
+  margin-left: 5px;
+} 
+
+input[type=submit] {
+    padding: 10px 15px; 
+    background: #6E8ECA; 
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px; 
+    text-transform: uppercase;
+}
+
+footer {
+	margin-top: 50px;
+}

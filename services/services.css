@@ -1,0 +1,47 @@
+#services { 
+	width: 1000px;
+	margin: auto;
+	background-color: #DCDCDC;
+	box-shadow: -6px 0px 6px #DCDCDC, 6px 0px 6px #DCDCDC;
+}
+
+.servtext img {
+	margin-top: 70px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+            -1px 2px 20px rgba(255, 255, 255, 0.6) inset; 
+}
+
+.fondbleu2 {
+	margin-top: 70px;
+	padding: 10px;
+	width: 60%;
+    background: linear-gradient(#2B75B6, #BCD2CF);
+    border-radius: 8px;
+    text-align: justify;
+    color: white;
+    margin left: 300px;
+    float: right;
+    position: relative;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: URW Chancery L, cursive;
+}	
+
+.art {
+	display: none;
+}
+
+iframe {
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+            -1px 2px 20px rgba(255, 255, 255, 0.6) inset; 
+}
+
+.desc {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
