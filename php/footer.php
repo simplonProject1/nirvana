@@ -1,5 +1,5 @@
 <footer>
-                    <a href= "contact.html">Contactez-nous</a>
+                    <a href= "nirvana/contact/contact.html">Contactez-nous</a>
                     <a href="#page">Retour en haut de la page</a>
                     <a href="Rejoinez nous" >Rejoignez-nous</a>
 
