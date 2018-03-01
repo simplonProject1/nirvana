@@ -6,8 +6,8 @@
 
 
                     <div class="imgfoot">
-                        <img src="../facebook-icone-CmonSite.png" class="imageFlottante" id="a" alt="Facebook" width="70°" height="70°" />
-                        <img src="../twitter-CmonSite.png" class="imageFlottante" id="b" 
+                        <img src="/nirvana/images/facebook-icone-CmonSite.png" class="imageFlottante" id="a" alt="Facebook" width="70°" height="70°" />
+                        <img src="/nirvana/images/twitter-CmonSite.png" class="imageFlottante" id="b" 
                         alt="Twitter" width="70°" height="70°" />
                     </div>
                     <br />

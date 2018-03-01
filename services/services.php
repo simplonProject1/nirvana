@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Le Nirvana - Activites</title>
-		<link rel="stylesheet" type="text/css" href="../nirvana.css"/>
+		<link rel="stylesheet" type="text/css" href="/nirvana/acceuil/nirvana.css"/>
 		<link rel="stylesheet" type="text/css" href="services.css"/>
 	</head>
 	<body>

@@ -4,14 +4,14 @@
 <head>
         <title>Le Nirvana</title>
         <meta charset="utf-8">
-       <link rel="stylesheet" href="nirvana.css" />
+       <link rel="stylesheet" href="/nirvana/acceuil/nirvana.css" />
 </head>
 
     <body>
        
 
             <header>
-                <?php include("php/nav.php"); ?>
+                <?php include("../php/nav.php"); ?>
             </header>
             <div id="page">
 
@@ -20,7 +20,7 @@
                 <article>  
 
 
-                <img class="boat" src="boat.jpg" width="100%" height="280px">
+                <img class="boat" src="/nirvana/images/boat.jpg" width="100%" height="280px">
 
             
                 <h1 class="bienvenue"> Le NIRVANA</h1>
@@ -48,7 +48,7 @@
            <section class="marnico">
 
                 <article class="carac">
-                    <a href="description.png"><img src="description.png" alt="Caractéristique" title="Cliquez pour agrandir" width="300" height="150"></a>
+                    <a href="description.png"><img src="/nirvana/images/description.png" alt="Caractéristique" title="Cliquez pour agrandir" width="300" height="150"></a>
                     <h3>Caractéristiques</h3>
                     <ul>
                         <li>Nombre de cabines: 4
@@ -73,7 +73,7 @@
               
                 <article class="crew">
                     <div class="photo3">
-                    <img src="crew.jpg" alt="Caractéristique" width="300" height="150">
+                    <img src="/nirvana/images/crew.jpg" alt="Caractéristique" width="300" height="150">
                     </div>
 
                     <h3>L'équipage</h3>
@@ -95,7 +95,7 @@
             <br />
             <br />
 
-                <?php include("php/footer.php"); ?>
+                <?php include("../php/footer.php"); ?>
 
         </div>
         <p class="foot"> © NIRVANA 2018 </p>
