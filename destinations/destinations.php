@@ -7,10 +7,9 @@
 
 	</head>
 <body>
-    <header>
+    
 		<?php include("../php/nav.php"); ?>
 
-	            </header>
 
 
             <div id="page">
