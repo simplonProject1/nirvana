@@ -12,6 +12,10 @@ section {
 	justify-content: space-around;
 }
 
+button.selection {
+	margin-left: 40%;
+}
+
 .price, .fillUpForm, .confirmation {
 	display: none;
 	width: 80%;
@@ -36,8 +40,6 @@ section {
 	font-size: 2rem;
 }
 
-/* dodać required do formularza */
-
 input[type=text], input[type=date], input[type=email] {
 	border-radius: 5px;
 }
@@ -52,15 +54,47 @@ input[type=radio]:hover + label {
   margin-left: 5px;
 } 
 
-input[type=submit] {
+input[type=submit], button {
     padding: 10px 15px; 
     background: #6E8ECA; 
     border: 0 none;
     cursor: pointer;
     border-radius: 5px; 
     text-transform: uppercase;
+    color: white;
+}
+
+input[type=submit]:hover, button:hover {
+	background: #5270a5;
+}
+
+.clients {
+	padding-top: 90px;
+	width: 90%;
+	margin: auto;
+	font-family: 'Kameron', serif;
+}
+
+.toHide {
+	display: none;
+}
+
+.moveRight {
+	padding: 0 0 0 50px;
+	margin: -10px;
 }
 
 footer {
 	margin-top: 50px;
+}
+
+.imgfoot a {
+	background-color: rgba(255,255,255, 0);
+}
+
+.imgfoot div {
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	margin-right: 15px;
 }

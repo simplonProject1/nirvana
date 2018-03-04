@@ -24,23 +24,6 @@ nav {
     background-color: black;
 }
 
-nav li {
-    display: inline-block;
-    background-color: black;
-    padding: 20px;
-}
-
-nav li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-}
-
-nav li:hover {
-    background-color: #545454;
-}
-
 nav ul {
     width: 100%;
     display: flex; 
@@ -48,6 +31,23 @@ nav ul {
     padding-left: 0px;
 }
 
+nav li {
+    display: inline-block;
+    background-color: black;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li:hover {
+    background-color: #545454;
+}
 
 /* --- Article --- */
 
@@ -263,4 +263,8 @@ border-radius: 5px;
 
 .imgfoot{
     margin-top: 100px;
+}
+
+.imgfoot div {
+    display: none;
 }

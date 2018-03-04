@@ -1,0 +1,27 @@
+for the reservation part of the page to work properly you need to:
+
+1. create a table called "nirvana" in mysql:
+
+	CREATE TABLE nirvana ( 
+    		startDate DATE, 
+    		endDate DATE, 
+    		destination TEXT,
+    		firstName TEXT,
+    		lastName TEXT,
+    		email TEXT
+	); 
+
+2. add a "config.php" file in reservation directory
+
+	content:
+
+	<?php
+
+		$servername = "localhost";
+		$username = "root"; 
+		$password = "Your database password"; 
+		$dbname = "Your database name";
+
+	?>
+
+3. if something is not clear let me know :)
